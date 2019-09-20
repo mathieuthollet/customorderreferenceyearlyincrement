@@ -2,7 +2,7 @@
 
 Prestashop module.
 
-This module was refused on Prestashop Addons Marketplace because it needs to change default table structure, , so I give it for free :)
+This module was refused on Prestashop Addons Marketplace because it needs to change default table structure, so I give it for free :)
 
 Custom order reference with configurable pattern and increment number that can be resetted every year automatically
 
