@@ -31,13 +31,12 @@ if (!defined('_PS_VERSION_')) {
 class CustomorderReferenceYearlyIncrement extends Module
 {
     protected $config_form = false;
-    protected $support_url = 'https://addons.prestashop.com/contact-form.php?id_product=39467';
 
     public function __construct()
     {
         $this->name = 'customorderreferenceyearlyincrement';
         $this->tab = 'administration';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'Mathieu Thollet';
         $this->need_instance = 0;
         $this->module_key = '2435d04b50870c06677cf617cb4977b3';
@@ -99,10 +98,8 @@ class CustomorderReferenceYearlyIncrement extends Module
         }
         $this->context->smarty->assign('errors', $this->_errors);
         $this->context->smarty->assign('module_dir', $this->_path);
-        $this->context->smarty->assign('support_url', $this->support_url);
         $output .= $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl');
-        return $output . $this->renderForm() .
-            $this->context->smarty->fetch($this->local_path.'views/templates/admin/support.tpl');
+        return $output . $this->renderForm();
     }
 
     /**

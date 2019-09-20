@@ -1,5 +1,9 @@
 # Custom Order Reference Yearly Increment
 
+Prestashop module.
+
+This module was refused on Prestashop Addons Marketplace because it needs to change default table structure, , so I give it for free :)
+
 Custom order reference with configurable pattern and increment number that can be resetted every year automatically
 
 ## How to install
@@ -25,13 +29,3 @@ On the configuration page you can also :
 - Set the next increment number
 - Set the increment number length
 - Choose if the increment number is resetted yearly or not.
-
-## Support
-
-If you have any question or bug report, or suggestions to improve my module, contact me : https://addons.prestashop.com/contact-form.php?id_product=39467
-
-I will do my best to help you with your module.
-
-## Rating
-
-If you found this module was usefull, please leave a rating on Prestashop Addons :)
